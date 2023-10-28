@@ -3,3 +3,5 @@
 *.mov
 */*.mov
 */*/*.mov
+
+.vscode
