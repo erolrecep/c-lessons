@@ -7,7 +7,10 @@ typedef struct str_t {
 	unsigned char *s;
 } bstr_t, *bstr;
 
+
 #define str_len(s) ((s)->len)
+
+
 bstr str_new(size_t len)
 {
 	bstr s = malloc(sizeof(bstr_t));
